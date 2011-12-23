@@ -1,4 +1,4 @@
-; Triple subtraction v1.0
+; Triple subtraction v1.0  23.12.2011
 
 ; You can execute it by Simple Simulator. http://es.ewi.utwente.nl/software/simpsim/index.html#download
 
