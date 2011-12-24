@@ -1,4 +1,5 @@
 ; Find the Biggest Digit v1.0 23.12.2011
+; Author: Furkan Tektaş
 
 ; You can execute it by Simple Simulator. http://es.ewi.utwente.nl/software/simpsim/index.html#download
 
@@ -8,7 +9,8 @@
 JMP CLEANSCREEN
 
 CLEANSCREEN: 					;Print three enter to clean the screen
-	LOAD RF,10d 
+	LOAD RF,10d
+	LOAD RF,10d  
 	LOAD RF,10d 
 	LOAD RF,10d 
 	JMP  MAINPROCESS
