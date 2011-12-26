@@ -65,7 +65,7 @@ MAINPROCESS:								; Load numbers from memory to registers and jump the followi
 			JMP PRINTMESSAGE				; Jump to print the warning
 			
 		PRINTMESSAGE:						; Stolen from hello world example :)
-			LOAD    R2,1        				; Initialize character counter
+			LOAD    R2,1        				; 1 for increase the order of current character
 			LOAD    R0,0        				; Define the terminator
 			PRINTCHAR:
 					LOAD    RF,[R1]    		; Get character and print it
